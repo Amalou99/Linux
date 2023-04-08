@@ -1,0 +1,16 @@
+How to fix < Linux: 'Username' is not in the sudoers file. This incident will be reported > :
+
+Explication:
+
+Solution:
+
+Open file
+
+	su root 
+	nano /etc/sudoers
+
+Then add the user below admin user like below syntax.
+
+	user_name ALL=(ALL)  ALL
+
+ 
